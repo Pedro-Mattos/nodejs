@@ -1,10 +1,11 @@
-const express = require('express');
-const app = express();
+const app = require('./src/config/custom-express')
 
+//criaçao do server
 app.listen(3000, function(){
     console.log('server rodando');
 })
 
+//rotas
 app.get('/', function(req , resp){
     resp.send(
         `
