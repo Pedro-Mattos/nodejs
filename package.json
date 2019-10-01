@@ -1,0 +1,28 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "Livraria Casa do Codigo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedro-Mattos/nodejs.git"
+  },
+  "keywords": [
+    "Treinamento",
+    "node",
+    "js"
+  ],
+  "author": "Pedro de Mattos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedro-Mattos/nodejs/issues"
+  },
+  "homepage": "https://github.com/Pedro-Mattos/nodejs#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}

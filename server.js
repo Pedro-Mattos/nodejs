@@ -1,6 +1,6 @@
 const http = require('http');
 
-const servidor = http.createServer(function(req, resp){
+const servidor = http.createServer(function (req, resp) {
     resp.end(`
             <html>
                 <head>
@@ -11,7 +11,10 @@ const servidor = http.createServer(function(req, resp){
                 </body> 
             </html>
             `);
-
-    
 })
+
 servidor.listen(3000);
+
+//npm = node package manager , gerenciador de pacotes do node. ASsim como o git init se colocar npm init para que sua aplicaçao vire uma apliacção node
+
+//express é um framework do node, para ser instalado apos chamar o npm, npm install express@"versao" ou npm install express para ele baixar a versao mais atual do express. npm install express --save-exact diz que é uma dependencia exata e que deve ser salva .
