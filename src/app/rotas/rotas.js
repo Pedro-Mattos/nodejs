@@ -30,6 +30,17 @@ module.exports = (app) => {
                 .catch(erro => console.log(erro));
     
     });
+    //rota para exibir pagina de formulário
+    app.get('/livros/form', function(req, resp){
+        resp.marko(require('../views/livros/form/form.marko'))
+    });
+
+
+    // rota para postar dados rota "post"
+    app.post('/livros', function(req, resp){
+        console.log(req.body)
+    })
+
 
  
 }
