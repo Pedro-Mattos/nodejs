@@ -10,6 +10,10 @@ app.use(bodyParser.urlencoded({
 
     extended : true
 }))
+
+app.use('/estatico', express.static('src/app/public'))
+
+
 const rotas = require('../app/rotas/rotas')
 rotas(app);
 
