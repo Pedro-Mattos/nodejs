@@ -7,25 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --ignore *.marko.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pedro-Mattos/nodejs.git"
-  },
-  "keywords": [
-    "Treinamento",
-    "node",
-    "js"
-  ],
-  "author": "Pedro de Mattos",
+  "author": "Gabriel Leite",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pedro-Mattos/nodejs/issues"
-  },
-  "homepage": "https://github.com/Pedro-Mattos/nodejs#readme",
   "dependencies": {
     "body-parser": "1.18.3",
     "express": "4.16.3",
     "marko": "4.13.4-1",
+    "method-override": "3.0.0",
     "sqlite3": "4.0.2"
   },
   "devDependencies": {
